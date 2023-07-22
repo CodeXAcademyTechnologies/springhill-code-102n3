@@ -13,22 +13,12 @@ function getFavFoodPlace(){
 
 }
 
-function add2Numbers(num1, num2){
-  let sum = num1 + num2
-  
-  return sum 
-}
-
-let fivePlusSeven = add2Numbers(5, 7)
-
-console.log(fivePlusSeven)
-
 function setRating(){
   let starAmount = prompt("How many stars would you like to rate that store?")
   let parsedNumber = parseInt(starAmount)  
   let starRating = ''
   
-  // anatomy of for loop
+
   // for (initialization; condition; afterthought){ 
   //   code to be executed
   // }
@@ -39,7 +29,6 @@ function setRating(){
   console.log(starRating)
   document.write(starRating)
 }
-
 
 
 let userGuess = prompt("Guess a Number between 1 and 10")
@@ -56,6 +45,7 @@ while (attempts > 0){
     attempts--
   }
 }
+
 
 // very basic while loop example
 let x = 0
