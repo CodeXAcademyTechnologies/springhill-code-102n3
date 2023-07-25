@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fast Food Favorites</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+    <header class="dark-beige">
+      <h1 class="text-blue display-inline">Fast Food Favorites</h1>
+      <a class="display-inline" href="">Link to partners page</a>
+      <p style="float: right; margin-right: 20px">
+        <script>
+          getUsername();
+        </script>
+      </p>
+      <!-- username -->
+    </header>
+    <main>
+      <img src="images/burger.jpg" alt="Burger and french fries" />
+      <section>
+        <h2 class="text-blue">List of favorite fast food joints</h2>
+        <div id="our-list">
+          <div class="display-inline width-50">
+            <h3>Store Name</h3>
+            <ul>
+              <li>Taco Time</li>
+              <li>Taco Mac</li>
+              <li>Chick Fila</li>
+              <li>McCallisters</li>
+              <li>Canes</li>
+              <li>Zaxbys</li>
+              <li style="color: green">
+                <script>
+                  document.write(getFavFoodPlace());
+                </script>
+              </li>
+            </ul>
+          </div>
+          <div class="display-inline width-50">
+            <h3>Rating</h3>
+            <ul>
+              <li>⭐️⭐️⭐️⭐️⭐️</li>
+              <li>⭐️⭐️⭐️⭐️</li>
+              <li>⭐️⭐️⭐️⭐️⭐️</li>
+              <li>⭐️⭐️⭐️⭐️</li>
+              <li>⭐️⭐️⭐️</li>
+              <li>⭐️⭐️⭐️⭐️</li>
+              <li style="color: green">
+                <script>
+                  setRating();
+                  guessingGame();
+                </script>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="dark-beige">&copy; Springhill-code-102n3</footer>
+  </body>
+</html>
